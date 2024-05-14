@@ -11,17 +11,17 @@ To build the Docker image, follow these steps:
 
 
 2. Navigate to the directory containing the Dockerfile:  
-```sh cd moneroocean-miner```
+```cd moneroocean-miner```
 
 
 3. Build the Docker image using the following command, replacing `your_wallet_address` with your actual Moneroocean wallet address: 
-```sh docker build --build-arg wallet_address=your_wallet_address -t moneroocean-miner .```
+```docker build --build-arg wallet_address=your_wallet_address -t moneroocean-miner .```
 
 
 ## Running the Docker Container
 
 To run the Docker container, use the following command, replacing `your_wallet_address` with your actual Moneroocean wallet address: 
-```sh docker run -d --name moneroocean-miner -e WALLET_ADDRESS=your_wallet_address moneroocean-miner```
+```docker run -d --name moneroocean-miner -e WALLET_ADDRESS=your_wallet_address moneroocean-miner```
 
 
 This will start the Moneroocean miner in the background, using your specified wallet address.
