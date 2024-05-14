@@ -7,7 +7,7 @@ This Docker image is used to run the Moneroocean miner in a container. The Moner
 To build the Docker image, follow these steps:
 
 1. Clone this repository: 
-```sh git clone https://github.com/your-username/moneroocean-miner.git```
+```git clone https://github.com/your-username/moneroocean-miner.git```
 
 
 2. Navigate to the directory containing the Dockerfile:  
