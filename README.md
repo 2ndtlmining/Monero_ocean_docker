@@ -27,3 +27,7 @@ This will start the Moneroocean miner in the background, using your specified wa
 The Docker container supports the following environment variables:
 
 - `WALLET_ADDRESS`: The Moneroocean wallet address to use for mining. This environment variable is required and must be set when running the container.
+
+## Verify your hashrate and rewards
+
+You can check your rewards: [Link Text](https://moneroocean.stream/) just put in `your_wallet_address` 
