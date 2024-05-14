@@ -30,4 +30,4 @@ The Docker container supports the following environment variables:
 
 ## Verify your hashrate and rewards
 
-You can check your rewards: [Link Text](https://moneroocean.stream/) just put in `your_wallet_address` 
+You can check your rewards: [(https://moneroocean.stream/)] just put in `your_wallet_address` 
